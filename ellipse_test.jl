@@ -129,15 +129,6 @@ curv[i,j]=(1/(a^2*b^2))*((x^2/a^4)+(y^2/b^4))^(-3/2)
 end
 end
 
-#t=pi/2
-#for i=1:10 #final curvature along y axis
-#a=sqrt(rhos[i])
-#b=a*sqrt(.5)
-#x=a*cos(t)
-#y=b*sin(t)
-#curv[11,i]=(1/(a^2*b^2))*((x^2/a^4)+(y^2/b^4))^(-3/2)
-#end
-
 return curv
 end
 ##########################################################
