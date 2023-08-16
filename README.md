@@ -15,7 +15,7 @@ getcurvatures() calculates the curvature of the isosurfaces at intersection poin
 
 getcurvderivative() calculates the first derivative of the curvature of isosurfaces with respect to the arc length of the isosurface as intersection points using a finite difference method. The ith column contains the dervatives of the ith ellipse.
 
-getarclengthsgponly() calculates the arc lengths of the segments of the ellipses between intersections using the reccurence relation. The ith column has the arc lengths of the ith ellipse counting from smallest to largest.
+getarclengthsgponly() calculates the arc lengths of the segments of the ellipses between intersections using the recurrence relation. The ith column has the arc lengths of the ith ellipse counting from smallest to largest.
 
 getareatrap() uses the arc lengths from getarclengths() and trapezoidal rule to calculate the area of the largest ellipse.
 
@@ -27,7 +27,7 @@ checkareagponlytrap() checks the relative area of checkareagponlytrap() with an 
 
 checkarclengths() checks that the arc lengths from getarclengths() add up to the total arc lengths of each ellipse and returns relative errors.
 
-checkarclengthsgponly() hecks that the arc lengths from the reccurence relation add up to the total arc lengths of each ellipse and returns relative errors.
+checkarclengthsgponly() hecks that the arc lengths from the recurrence relation add up to the total arc lengths of each ellipse and returns relative errors.
 
 checkarclengthserr() computes the relative error of arc lengths computed with the recurrence relation using the arc lengths from getarclengths() as a reference solution since it is verified by the other functions. 
 
